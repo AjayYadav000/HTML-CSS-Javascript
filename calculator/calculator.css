@@ -1,0 +1,45 @@
+.container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container2{
+    height: 100%;
+    width: 50%;
+}
+.container3{
+    display: flex;
+    align-items: center;
+height:200px ;
+width: 100%;
+}
+.container4{
+display: grid;
+grid-template-columns: auto auto auto auto;
+column-gap: 5px;
+row-gap: 4px;
+height:400px ;
+width: 100%;
+}
+input{
+height:100px ;
+width: 100%;
+text-align: right;
+border: 9px solid black;
+border-radius: 36px;
+font-size: 62px;
+}
+button{
+    height: 100%;
+    width: 100%;
+    font-size: 30px;
+    border-radius: 15px;
+}
+button:hover{
+    background-color:blue;
+}
+h1{
+    text-align: center;
+}
+
+
